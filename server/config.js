@@ -2,11 +2,18 @@
 module.exports = {
   // 数据库配置
   mysqlDB: {
-    host: 'localhost',
+    // host: 'localhost',
+    // user: 'root',
+    // password: 'root',
+    // database: 'scscmsdb'
+
+    host: 'rm-8vb82hmcwqhnhh0ccdo.mysql.zhangbei.rds.aliyuncs.com',
     user: 'root',
-    password: 'root',
-    database: 'scscmsdb'
+    password: '123@123xianwei',
+    port: '3306',
+    database: 'testxianweinode'
   },
+
   upPath: 'dist/upFile/', // 上传路径
   // token 配置
   JWTs: {
